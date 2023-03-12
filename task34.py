@@ -10,3 +10,4 @@ vowels = ['а', 'о', 'е', 'ё', 'я', 'о', 'у', 'ю', 'ы', 'и']
 stih = input('Введите стих: ')
 ritm = len(list(filter(lambda x: x in vowels, stih)))
 print('Парам-пам-пам: с ритмом все в порядке ' if ritm % 2 == 0 else 'Пам: ритма нет')
+

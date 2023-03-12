@@ -13,3 +13,4 @@ def print_operation_table(operation,row,column):
 
 
 print_operation_table(lambda x,y: x*y, 6, 6)
+
